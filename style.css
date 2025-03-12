@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #A56ABD;
+}
+h1{
+    color: #f5ebfa;
+    margin: 10px;
+}
+.img-container{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 10px;
+    margin: 10px;
+    
+}
+.img{
+    width: 100px;
+    height: 400px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#imgs1{
+    background: url(img/capitanamerica-2688069_640.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: 0.9s;
+}
+.img:hover{
+    width: 190%;
+    
+}
+#imgs2{
+    background: url(img/hector-reyes-PXjQaGxi4JA-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: 0.9s;
+}
+#imgs3{
+    background: url(img/marcin-lukasik-uYpOYyJdhRE-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: 0.9s;
+}
+#imgs4{
+    background: url(img/shovit-chettri-IwcpiMuFAjM-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: 0.9s;
+}
+#imgs5{
+    background: url(img/bluesteel-4573540_640.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: 0.9s;
+}
